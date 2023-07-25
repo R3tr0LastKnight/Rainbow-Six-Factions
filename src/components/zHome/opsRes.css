@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+  .ops {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .opHead {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 728px) {
+  .ops {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

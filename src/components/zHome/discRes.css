@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+  .squadInfo {
+    flex-direction: column;
+  }
+  .leader {
+    width: 80%;
+  }
+  .squadImg {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+.squadInfo {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 3%; */
+}
+.leader {
+  width: 50%;
+  padding: 5% 10%;
+  line-height: 25px;
+}
+.leader p {
+  font-size: 19px;
+}
+.leaderPara {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  /* text-align: center; */
+}
+.leaderName {
+  float: right;
+  line-height: 35px;
+
+  font-weight: 900;
+}
+.squadImg {
+  width: 50%;
+  padding-bottom: 0;
+  /* margin-top: -10%; */
+  z-index: -5;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.centerImg {
+  width: 80%;
+  height: auto;
+  z-index: -1;
+}
+.rightImg,
+.leftImg {
+  width: 30%;
+  height: auto;
+  z-index: -5;
+}
+.rightImg {
+  position: relative;
+  left: -80px;
+}
+.leftImg {
+  position: relative;
+  left: 80px;
+}

@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .factionsNav {
+    margin-top: 0%;
+    margin-right: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  #center-item {
+    grid-column: 1 / -1;
+  }
+  .navImg {
+    justify-self: center;
+    width: 350px;
+  }
+  .logoNav {
+    margin-left: 0;
+  }
+}

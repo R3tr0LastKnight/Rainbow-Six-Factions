@@ -1,0 +1,14 @@
+.opImg {
+  width: 75%;
+  height: auto;
+  align-self: center;
+}
+.opImgBox {
+  display: flex;
+  justify-content: space-around;
+}
+.opName {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}

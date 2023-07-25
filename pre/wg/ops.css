@@ -1,0 +1,20 @@
+.opsContainer {
+  background-color: #008fb9;
+  color: #fff;
+  filter: drop-shadow(#008fb9 20px 00px 10px);
+  margin-bottom: 50px;
+}
+.ops {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 1px 30px 1px 30px;
+  gap: 30px;
+  padding-bottom: 5%;
+}
+.opHead {
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  font-size: 40px;
+  font-weight: 900;
+}
